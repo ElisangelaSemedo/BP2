@@ -42,7 +42,7 @@
         <section id="hero">
             <h2>Discover <span>new</span> movies</h2>
             <form>
-                <input type="text" placeholder="Search movies by typing a title">
+                <input type="text" placeholder="Search movies by typing a title" id="user-input">
 
                 <a class="btn" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
             </form>
@@ -50,30 +50,9 @@
 
         <section id="suggestions">
             <h2>Suggested movies</h2>
-            <hr style="width: 20%;">
-            <div class="suggested-movies">
-                <div class="suggested-movie">
-                    <img src="./assets/images/poster-nightcrawler.jpg" alt="">
-                    <div class="movie-details">
-                        <h3>NightCrawler</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="suggested-movie">
-                    <img src="./assets/images/poster-samurai.jpg" alt="">
-                    <div class="movie-details">
-                        <h3>7 Samurais</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="suggested-movie">
-                    <img src="./assets/images/poster-dune.jpg" alt="">
-                    <div class="movie-details">
-                        <h3>Dune</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
+            <div id="movies-list"></div>
+            
+
         </section>
     </main>
 
